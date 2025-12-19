@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anti Nicetry</title>
+    <title>From me to You</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <audio id="backgroundSound" src="sound.mp3" preload="auto"></audio>
 
     <div class="gallery-container">
-      <h1 style="color: rgb(0, 0, 0);">Ahahaaa Makasih Yaaa &lt;3</h1>
+      <h1 style="color: rgb(0, 0, 0)">Ahahaaa Makasih Yaaa &lt;3</h1>
       <div class="gallery">
         <canvas id="heartCanvas"></canvas>
         <div class="gallery-item rotate">
@@ -56,7 +56,9 @@
 
       // Pindahkan alert dan play sound ke dalam fungsi
       function showAlertAndPlaySound() {
-        alert(`Ahahaa Oke ${nama}, Makasih yaa udah kasih aku kesempatan ini<3`);
+        alert(
+          `Ahahaa Oke ${nama}, Makasih yaa udah kasih aku kesempatan ini<3`
+        );
         const sound = document.getElementById("backgroundSound");
         sound.play();
       }
